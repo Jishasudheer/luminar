@@ -1,0 +1,66 @@
+
+            
+            .header{
+                height:45px;
+                background-color:#5e068a ; 
+                font-size: 13px;
+                position:relative
+            }
+            .header-left{
+                margin-left: 100px;
+            }
+            
+           .header-right{
+               position:relative;
+               margin-right: 100px;
+           }
+           .nav{
+               position: relative;
+               margin-left:354px;
+           }
+        .navbar-toggler{
+            color:black;
+        }
+
+        .navbar {
+            height: 100px;
+        }
+         
+           .hyper {
+            margin-right: 100px;
+            margin-top: -160px;
+        }
+
+        .font {
+            font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+        }
+           .col {
+                padding-left: 100px;
+                padding-top: 30px;
+            }
+
+            .luminartechnolab {
+                font-size: 35px;
+                font-weight: 10px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+
+            }
+
+            .describe {
+                line-height: 40px;
+                width:75%;
+            }
+
+            
+
+            .image {
+                height: 700px;
+                width: 500px;
+                padding-top:2px;
+            }
+    .ourcourse{
+        text-align: center;
+        line-height:1.2 ;
+        color: #5e068a;
+    }
