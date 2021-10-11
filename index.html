@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
-<div class="header text-white w-100 fs-6 d-flex justify-content-between">
-    <div class="header-left px-5 p-2">
+<div class="header container-fluid text-white w-100 fs-6 d-flex">
+    <div class="header-left col-sm-12 col-lg-6">
         <h>Have any question?</h>
         <a href="" class="text-white text-decoration-none"> +918086651651 </a>
     </div>
-    <div class="header-right px-5 p-2">
+    <div class="header-right col-sm-12 col-lg-6">
         <i class="fas fa-phone-square-alt"></i>
         +918086651651
         <i class="far fa-envelope"></i>
@@ -31,23 +31,23 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top" style="background-color:white ;">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
 
         <div class="container">
             <!-- <a class="navbar-brand" href="#"><i class="fab fa-bootstrap fa-2x" ></i>
       </a> -->
 
             <a class="navbar-brand" href=""><img class="navbar-link" src="./logo.png"
-                    alt="Data Science training in Kochi" style="margin-left: 35px;"></a>
+                    alt="Data Science training in Kochi"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"                        
+                aria-label="Toggle navigation" >
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav">
-                    <li class="nav-item">
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">               
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
                         <a class="nav-link active text-dark" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
@@ -69,9 +69,9 @@
             </div>
         </div>
     </nav>
+    <!-- Navbar end -->
 
-
-
+    <!-- carousel start -->
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -105,12 +105,12 @@
                     <p class="text-white">We LUMINAR TECHNOLAB offers best software training and placement in emerging
                         technologies like Big Data, Hadoop, Spark,Data Scince, Machine Learning, Deep Learning and AI.
                     </p>
-                    
-                        <input class="btn mt-3 p-3 w-25 font-monospace rounded-pill" type="button"
-                            value="VIEW COURSES" style="background-color: #5e068a;;">
-    
-                    </div>
-                    
+
+                    <input class="btn mt-3 p-3 w-25 font-monospace rounded-pill" type="button" value="VIEW COURSES"
+                        style="background-color: #5e068a;;">
+
+                </div>
+
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -122,9 +122,11 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="row " style="position: relative;margin-left: 100;">
-        <div class="col" style="margin-left: 150px;">
-            <div class="luminartechnolab d-flex">
+    <!-- carousel end -->
+    <!-- Luminar technolab heading and paragraph starting section -->
+    <div class="conatiner luminartechnolab d-lg-flex ">
+        <div class="col-lg-6">
+            <div class="d-flex">
                 <h2 class="luminar" style="color:#5e068a;font-weight:bold;">Luminar &nbsp;</h2>
                 <h2 class="technolab" style="color:#c0a6ce;font-weight:bold;">Technolab</h2>
             </div>
@@ -143,48 +145,44 @@
                     type="button" value="LEARN MORE " style="background-color:#5e068a;">
             </div>
         </div>
-        <div class="col">
-            <div class="col-img">
-                <img class="image" src="./qq.jpg" alt="">
-            </div>
+
+        <div class="col-img">
+            <img class="image" src="./qq.jpg" alt="">
         </div>
-
     </div>
-
-    </div>
-    </div>
-    <div class="container border-2 border-warning w-100" style="background-color:rgb(204, 204, 211)">
+    <!-- Luminar technolab heading and paragraph ending section -->
+    <!-- our course heading and section -->
+    <div class="border-2 border-warning col-sm-12 h-auto" style="background-color:rgb(204, 204, 211)">
         <H1 class="ourcourse"> OUR COURSES</H1>
-        <div class="container d-flex position-relative justify-content-evenly">
-           
-            <col-6>
-                <div class="card" style="width: 40rem;">
+        <div class="container d-lg-flex align-content-sm-end">
+
+            <div class="col-md-6 mt-2">
+                <div class="card">
                     <img src="https://www.luminartechnolab.com/storage/uploads/data-science-1588143159.jpg"
                         class="card-img-top" alt="Luminar Technolab">
                 </div>
-            </col-6>
-            <div class="card" style="width: 40rem;">
-                <div class="card-body">
-                    <h3>Data Science - ML - AI - Big Data with Cloud &amp; Tableau</h3>
-                    <p>Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine
-                        Learning, Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.</p>
-                    <p><strong>📅 Next Batch : Sep 15<sup>th</sup> 2021 (02:00 pm - 04:00 pm)📅 Next Batch : Sep
-                            15<sup>th</sup> 2021 (02:00 pm - 04:00 pm)</strong></p>
-                    <p> <strong>⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day&nbsp;</strong></p>
-                    <p><strong>🧑‍🏫 Course Fees: </strong></p>
+            </div>
+            <div class="col-md-6 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Data Science - ML - AI - Big Data with Cloud &amp; Tableau</h3>
+                        <p>Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts,
+                            Machine
+                            Learning, Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.</p>
+                        <p><strong>📅 Next Batch : Sep 15<sup>th</sup> 2021 (02:00 pm - 04:00 pm)📅 Next Batch : Sep
+                                15<sup>th</sup> 2021 (02:00 pm - 04:00 pm)</strong></p>
+                        <p> <strong>⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day&nbsp;</strong></p>
+                        <p><strong>🧑‍🏫 Course Fees: </strong></p>
+                    </div>
                 </div>
             </div>
-        
-        <col-6>
-    
-        </col-6>
         </div>
-        <row class="container d-flex p-5 position-relative justify-content-evenly">
-           
-            <col-4>
-                <div class="card" style="width: 24rem;">
-                    <img src="https://www.luminartechnolab.com/storage/uploads/python-1588143191.jpg" class="card-img-top"
-                        alt="Luminar Technolab">
+        <!-- card first row ending -->
+        <row class="container d-lg-flex mt-2">
+            <div class="col-lg-4 col-md-12 mt-sm-5 p-2">
+                <div class="card" style="width:100%;">
+                    <img src="https://www.luminartechnolab.com/storage/uploads/python-1588143191.jpg"
+                        class="card-img-top" alt="Luminar Technolab">
                     <div class="card-body">
                         <h5 class="card-title">Phyton Django-Angular Full Stack Web development</h5>
                         <p class="card-text">Core Python, Basics of Programming, Unix Commands, Advanced Python, Django
@@ -193,13 +191,13 @@
                         <a href="#" class="btn btn-primary">View More</a>
                     </div>
                 </div>
-            </col-4>
-            <col-4>
-                <div class="card" style="width: 24rem;">
+            </div>
+            <div class="col-lg-4 col-md-12 mt-sm-5 p-2">
+                <div class="card" style="width:100%;">
                     <img src="https://www.luminartechnolab.com/storage/uploads/st-1588580359.jpg" class="card-img-top"
                         alt="Luminar Technolab">
                     <div class="card-body">
-                        <div class="card-body w-100">
+                        <div class="card-body">
                             <h5 class="card-title">Software Testing Specialist</h5>
                             <p class="card-text">Manual Testing,Java Functions,Mobile Testing,Selenium IDE,Selenium Wev
                                 driver,Selenium advanced</p>
@@ -207,23 +205,24 @@
                         </div>
                     </div>
                 </div>
-            </col-4>
-            <col-4>
-                <div class="card" style="width: 24rem;">
+            </div>
+            <div class="col-lg-4 col-md-12 mt-sm-5 p-2">
+                <div class="card" style="width:100%;">
                     <img src="https://www.luminartechnolab.com/storage/uploads/ms-1623825586.jpg" class="card-img-top"
                         alt="Luminar Technolab">
                     <div class="card-body">
                         <h5 class="card-title">MEARN Stack Web Development Expert - Angular & React</h5>
-                        <p class="card-text">HTML, CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL, Express.JS,
+                        <p class="card-text">HTML, CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL,
+                            Express.JS,
                             Angular, React.js and Node....
                         </p>
                         <a href="#" class="btn btn-primary">View More</a>
                     </div>
                 </div>
-            </col-4>
+            </div>
         </row>
-
-    </div>   
+    </div>
+   
 
 
 </body>
